@@ -4,8 +4,10 @@
 {% include 'navigation.html' %}
 
             <div class="col-md-10 col-lg-8 mx-lg-auto mx-md-auto">
+<div class="jumbotron">
         <h1>{{title}}</h1>
         <p>{{description}}</p>
+    </div>
 {% if records %}
     <h2 class="lead">>There are {{ records|length }} records in the Actors table!</h2>
     <table>
